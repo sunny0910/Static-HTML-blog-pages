@@ -2,7 +2,7 @@
 Static blog pages to learn how to create web-pages in HTML and CSS.
 
 Folder structure is as follows:
-
+```html
 ├── TASK                  (It contains the task images)
 ├── public                (The production files goes here)
 │   ├── assets
@@ -18,7 +18,7 @@ Folder structure is as follows:
         └── styles
             ├── css       (The css files goes here and compiles to production css folder using gulp)
             └── scss      (The scss files goes here and compiles to production css folder using gulp)
-
+```
 The Task folder contains the PSD files of the blog pages.
 I have used gulp to compile the SCSS files.
 SCSS files gets concatinated with CSS files and minified version goes into public folder which is the production folder.
